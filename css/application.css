@@ -1,0 +1,51 @@
+body {
+	background-color: LightGray;
+}
+
+.tab-titles {
+	background-color: orange;
+	display: flex;
+	justify-content: center;
+
+	border-bottom: 1px solid black;
+}
+
+.tab-titles li {
+	margin: 5px;
+	list-style: none;
+}
+
+.tab-titles h1 {
+	border: 1px solid black;
+	border-radius: 10px;
+	padding: 5px;
+	overflow: hidden;
+}
+
+.tab-titles h1:hover {
+	background-color: LightCoral;
+	cursor: pointer;
+}
+
+.LightPurple {
+	background-color: red;
+	color: black;
+}
+
+.DarkPurple {
+	background-color: blue;
+	color: white;
+}
+
+.tab-titles h1.DarkPurple {
+	color: white;
+}
+
+.tab-titles h1.LightPurple {
+	color: black;
+}
+
+.current-temp {
+	display: flex;
+	align-items: baseline;
+}
